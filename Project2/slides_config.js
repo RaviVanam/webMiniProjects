@@ -22,7 +22,7 @@ const slides = [
     },
     {
         "name" : "Levi Ackerman",
-        "quote": "Whether I trusted myself or the choices of my dependable comrades, there was no telling how things would turn out.",
+        "quote": "A quote isn't enough. <a style=\"color: blue\" href=\"https://www.youtube.com/watch?v=KM9EKpUU728\">See it for yourself</a>",
         "imageURL": "images/levi.png",
         "nameColor": "rgb(68, 176, 209)",
         "slideColor": "rgb(14, 34, 36)"
