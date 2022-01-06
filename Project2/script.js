@@ -4,7 +4,7 @@ const slideRight = document.querySelector('.right-slide');
 const upButton = document.querySelector('.arrow-up');
 const downButton = document.querySelector('.arrow-down');
 
-// ---------------testing-------------------
+//fuction to create and add a html slide
 const createNewSlide = function(slide) {
     slideLeft.innerHTML = `<div style="background-color: ${slide.slideColor};">\
                                 <h1 style="color: ${slide.nameColor};">${slide.name}</h1>\
@@ -17,13 +17,12 @@ const createNewSlide = function(slide) {
     slideRight.innerHTML = slideRight.innerHTML 
                             + `<div style="background-image: url(${slide.imageURL});"></div>`;
 }
-                        
+
+//adding slides to html
 const slidesLength = slides.length;
 for (let i = 0; i < slidesLength; i++) {
     createNewSlide(slides[i]);
 }
-
-// ----------------working -----------------
 
 let activeSlideIndex = 0;
 
