@@ -11,7 +11,7 @@ const createNewSlide = function(slide) {
                                     <div class="quote">\
                                         <p>${slide.quote}</p>\
                                     </div>\
-                                </div>`
+                            </div>`
                             + slideLeft.innerHTML;
 
     slideRight.innerHTML = slideRight.innerHTML 
