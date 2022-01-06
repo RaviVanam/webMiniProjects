@@ -22,7 +22,7 @@ const slides = [
     },
     {
         "name" : "Levi Ackerman",
-        "quote": "A quote isn't enough. <a style=\"color: blue\" href=\"https://www.youtube.com/watch?v=KM9EKpUU728\">See it for yourself</a>",
+        "quote": "A quote isn't enough. <a style=\"color: red; text-decoration: none;\" href=\"https://www.youtube.com/watch?v=KM9EKpUU728\">Click to see why</a>",
         "imageURL": "images/levi.png",
         "nameColor": "rgb(68, 176, 209)",
         "slideColor": "rgb(14, 34, 36)"
