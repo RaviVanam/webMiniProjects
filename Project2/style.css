@@ -24,6 +24,7 @@ body {
   position: absolute;
   top: 0;
   left: 0;
+  transition: transform 0.5s ease-in-out;
 }
 
 .left-slide > div {
@@ -42,12 +43,21 @@ body {
   margin-top: -30%;
 }
 
+.left-slide .quote {
+  width: 70%;
+}
+
+.left-slide .quote p {
+  font-size: 20px;
+}
+
 .right-slide {
   height: 100%;
   position: absolute;
   top: 0;
   left: 30%;
   width: 70%;
+  transition: transform 0.5s ease-in-out;
 }
 
 .right-slide > div {
