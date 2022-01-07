@@ -24,5 +24,5 @@ function onClick() {
             loadText.style.fontSize = "100px";
             loadText.style.opacity = 1;
         }
-    }, 30);
+    }, 10);
 }
