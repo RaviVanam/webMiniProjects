@@ -15,7 +15,7 @@ const slides = [
     },
     {
         "name" : "Mikasa Ackerman",
-        "quote": "This world is cruel and merciless. But it's also very beautiful at the same time.",
+        "quote": "This world is cruel. But it's also exceptionally beautiful.",
         "imageURL": "images/mikasa.jpg",
         "nameColor": "rgb(180, 32, 32)",
         "slideColor": "rgb(78, 63, 34)"
