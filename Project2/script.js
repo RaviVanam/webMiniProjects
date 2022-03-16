@@ -1,21 +1,21 @@
 const sliderContainer = document.querySelector('.slider-container');
 const slideLeft = document.querySelector('.left-slide');
-const slideRight = document.querySelector('.right-slide'); 
+const slideRight = document.querySelector('.right-slide');
 const upButton = document.querySelector('.arrow-up');
 const downButton = document.querySelector('.arrow-down');
 
 //fuction to create and add a html slide
-const createNewSlide = function(slide) {
+const createNewSlide = function (slide) {
     slideLeft.innerHTML = `<div style="background-color: ${slide.slideColor};">\
                                 <h1 style="color: ${slide.nameColor};">${slide.name}</h1>\
                                     <div class="quote">\
                                         <p>${slide.quote}</p>\
                                     </div>\
                             </div>`
-                            + slideLeft.innerHTML;
+        + slideLeft.innerHTML;
 
-    slideRight.innerHTML = slideRight.innerHTML 
-                            + `<div style="background-image: url(${slide.imageURL});"></div>`;
+    slideRight.innerHTML = slideRight.innerHTML
+        + `<div style="background-image: url(${slide.imageURL});"></div>`;
 }
 
 //adding slides to html
@@ -28,12 +28,12 @@ let activeSlideIndex = 0;
 
 slideLeft.style.top = `-${(slidesLength - 1) * 100}vh`;
 
-upButton.addEventListener('click', () => changeSlide('up')); 
+upButton.addEventListener('click', () => changeSlide('up'));
 downButton.addEventListener('click', () => changeSlide('down'));
 
 const changeSlide = direction => {
     const sliderHeight = sliderContainer.clientHeight;
-    
+
     if (direction === 'up') {
         activeSlideIndex++;
         if (activeSlideIndex > slidesLength - 1) {
